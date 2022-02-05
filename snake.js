@@ -1,6 +1,6 @@
 import { getInputDirection } from "./input.js";
 
-//how many times the snake moves per second
+// how many times the snake moves per second.
 export const SNAKE_SPEED = 5;
 const snakeBody = [{ x: 11, y: 11 }];
 let newSegments = 0;
@@ -31,9 +31,9 @@ export function expandSnake(amount) {
   newSegments += amount;
 }
 
-// @desc checks if on snake, retrns true / flase
-// @parms position: object with x, y coordinates to be checked
-//  ignoreHead: will not check if the head is onsnake when equals to true1
+// @desc checks if on snake, retrns true / flase.
+// @parms position: object with x, y coordinates to be checked.
+// ignoreHead: will not check if the head is onsnake when equals to true1.
 export function onSnake(position, { ignoreHead = false } = {}) {
   return snakeBody.some((segment, index) => {
     if (ignoreHead && index === 0) return false;
@@ -45,7 +45,7 @@ export function getSnakeHead() {
   return snakeBody[0];
 }
 
-// @desc determins if snake head hit its body
+// @desc determins if snake head hit it's body.
 export function snakeIntersection() {
   return onSnake(snakeBody[0], { ignoreHead: true });
 }

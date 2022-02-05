@@ -12,9 +12,9 @@ let lastRenderTime = 0;
 let gameOver = false;
 const gameBoard = document.getElementById("game-board");
 
-// @desc the game function, infinite loop
+// @desc the game function, infinite loop.
 // @params currentTime: in miliseconds
-// from the first function call
+// from the first function call.
 function main(currentTime) {
   if (gameOver) {
     if (confirm("You lost. Press ok to restart.")) {
@@ -54,7 +54,7 @@ function draw() {
   drawFood(gameBoard);
 }
 
-// @desc checks if the snake "hit a wall" or hit itself = lose game
+// @desc checks if the snake "hit a wall" or hit itself = lose game.
 function checkDeath() {
   gameOver = outsideGrid(getSnakeHead()) || snakeIntersection();
 }

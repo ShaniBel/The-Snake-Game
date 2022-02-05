@@ -19,7 +19,7 @@ export function draw(gameBoard) {
   gameBoard.appendChild(foodElement);
 }
 
-// @desc get random food position on board as long as it's not part of the snake
+// @desc get random food position on board as long as it's not part of the snake.
 function getRandomFoodPosition() {
   let newFoodPosition = null;
   while (newFoodPosition === null || onSnake(newFoodPosition)) {

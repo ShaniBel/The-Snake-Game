@@ -2,7 +2,17 @@
 
 > This project is the famous snake game. built in vanilla Java Script and uses CSS grid.
 
+#### Initial position:
+
 ![screenshot](https://github.com/ShaniBel/The-Snake-Game/blob/main/images/initial-position.png)
+
+#### Long snake:
+
+![screenshot](https://github.com/ShaniBel/The-Snake-Game/blob/main/images/long-snake.png)
+
+#### Lose game message:
+
+![screenshot](https://github.com/ShaniBel/The-Snake-Game/blob/main/images/when-lose.png)
 
 ## How to run the game:
 
