@@ -2,6 +2,8 @@
 
 > This project is the famous snake game. built in vanilla Java Script and uses CSS grid.
 
+![screenshot](https://github.com/ShaniBel/The-Snake-Game/blob/main/images/initial-position.png)
+
 ## How to run the game:
 
 1. Clone the project.
